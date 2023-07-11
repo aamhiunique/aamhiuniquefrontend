@@ -2,6 +2,8 @@ import React from "react";
 import aulogo from "../../assets/aamhiunique-logo.png";
 import "./home.css";
 import Login from "../login/Login";
+import Register from "../register/Register";
+import Resetpasswd from "../login/Resetpasswd";
 const Home = () => {
   return (
     <>
@@ -10,7 +12,9 @@ const Home = () => {
           <img src={aulogo} alt="Aamhiunique Logo" />
         </div>
         <div>
-          <Login />
+          {/* <Login /> */}
+          {/* <Register /> */}
+          <Resetpasswd />
         </div>
       </div>
     </>
